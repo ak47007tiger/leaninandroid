@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/generalcontrol_infotext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="请选择您的性别："
+                android:textSize="9pt" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="性别" >
+
+                <RadioButton
+                    android:id="@+id/radioMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="男" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radioFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="女" >
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvSex"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="您的性别是：男"
+                android:textSize="9pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/generalcontrol_checkbox_et"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:text="选择" >
+            </EditText>
+
+            <CheckBox
+                android:id="@+id/generalcontrol_cb_beijing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="北京" />
+
+            <CheckBox
+                android:id="@+id/shanghai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上海" />
+
+            <CheckBox
+                android:id="@+id/shenzhen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="深圳" />
+        </LinearLayout>
+
+        <TableRow>
+
+            <ToggleButton
+                android:id="@+id/ToggleButton01"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:checked="true"
+                android:textOff="status2"
+                android:textOn="status1" >
+            </ToggleButton>
+        </TableRow>
+
+        <TableRow>
+
+            <Switch
+                android:id="@+id/myswitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:textOff="关闭中"
+                android:textOn="开启中" />
+        </TableRow>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <!-- 模拟时钟控件 -->
+
+            <AnalogClock
+                android:id="@+id/analogClock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <!-- 数字时钟控件 -->
+
+            <DigitalClock
+                android:id="@+id/digitalClock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <Chronometer
+                android:id="@+id/generalcontrol_chronometer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:format="Initial format: %s"
+                android:gravity="center_horizontal"
+                android:paddingBottom="30dip"
+                android:paddingTop="30dip" />
+
+            <Button
+                android:id="@+id/generalcontrol_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开始" >
+            </Button>
+
+            <Button
+                android:id="@+id/generalcontrol_stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="停止" >
+            </Button>
+
+            <Button
+                android:id="@+id/generalcontrol_reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="重置" >
+            </Button>
+
+            <Button
+                android:id="@+id/generalcontrol_set_format"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设置格式" >
+            </Button>
+
+            <Button
+                android:id="@+id/generalcontrol_clear_format"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="清除格式" >
+            </Button>
+        </LinearLayout>
+
+        <AutoCompleteTextView
+            android:id="@+id/generalcontrol_autoclttv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:completionHint="提示内容"
+            android:dropDownHorizontalOffset="20dp"
+            android:text="single" >
+        </AutoCompleteTextView>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/generalcontrol_mulautoclttv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:completionHint="可选择"
+            android:completionThreshold="1"
+            android:dropDownHorizontalOffset="20dp"
+            android:text="mul" />
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/books"
+            android:prompt="@string/inxml" 
+            />
+
+        <Spinner
+            android:id="@+id/generalcontrol_spinner_arr"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/byarradapter" />
+
+        <Spinner
+            android:id="@+id/generalcontrol_spinner_myadapter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/bymyadapter" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <AdapterViewFlipper
+                android:id="@+id/generalcontrol_flipper"
+                android:layout_width="fill_parent"
+                android:layout_height="320dp"
+                android:flipInterval="5000" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/generalcontrol_prev"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="上一个" />
+
+                <Button
+                    android:id="@+id/generalcontrol_nextv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="下一个" />
+
+                <Button
+                    android:id="@+id/generalcontrol_auto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:text="自动播放" />
+            </LinearLayout>
+        </LinearLayout>
+    </TableLayout>
+
+</ScrollView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Leanandroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sendbtn">sendbtn</string>
+    <string name="title_activity_simpleadapter">simpleadapter</string>
+    <string name="title_activity_gridview">gridview</string>
+    <string name="title_activity_tempview">MainActivity</string>
+    <string name="title_activity_expandlistview">MainActivity</string>
+    <string name="inxml">entity in xml</string>
+    <string name="byarradapter">using arradapter</string>
+    <string name="bymyadapter">using myadapter</string>
+    <string name="title_activity_viewswitcher">viewswitcher</string>
+    <string name="title_activity_extendstabhost">extendstabhost</string>
+    <string name="title_activity_notextendstab">notextendstab</string>
+    <string name="title_activity_actionbarnav">actionbarnav</string>
+    <string name="title_activity_actionbarnavlist">actionbarnavlist</string>
+    <string name="title_activity_alert_dialog">AlertDialogActivity</string>
+    <string name="title_activity_popup_window">PopupWindowActivity</string>
+    <string name="title_activity_context_menu">ContextMenuActivity</string>
+    <string name="title_activity_draw_img">DrawImgActivity</string>
+    <string name="title_activity_paint">PaintActivity</string>
+    <string name="title_activity_preferences">PreferencesActivity</string>
+    <string name="title_activity_file_ops">FileOpsActivity</string>
+    <string name="title_activity_use_loading_helper">UseLoadingHelperActivity</string>
+    <string name="title_activity_sqlite">SqliteActivity</string>
+    <string name="title_activity_temp">TempActivity</string>
+
+</resources>

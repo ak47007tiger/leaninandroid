@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.gesturepsw.GesturePanel
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#d54d33"
+        >
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#a1c1f3"
+            android:text="test----0" />
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#a1c1f3"
+            android:text="test----1" />
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#a1c1f3"
+            android:text="test----2" />
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#a1c1f3"
+            android:text="test----3" />
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#a1c1f3"
+            android:text="test----4" />
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#a1c1f3"
+            android:text="test----5" />
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#a1c1f3"
+            android:text="test----6" />
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#a1c1f3"
+            android:text="test----7" />
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#a1c1f3"
+            android:text="test----8" />
+
+    </com.gesturepsw.GesturePanel>
+
+</LinearLayout>

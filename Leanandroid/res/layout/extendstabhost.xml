@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 定义TabHost组件 -->
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <!-- 定义第一个标签页的内容 -->
+    <LinearLayout
+        android:id="@+id/extendstabhost_tab01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        <!-- 定义两个TextView用于显示标签页中的内容 -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="孙悟空-2011/07/12" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="猪八戒-2011/07/10" />
+    </LinearLayout>
+    <!-- 定义第二个标签页的内容 -->
+    <LinearLayout
+        android:id="@+id/extendstabhost_tab02"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="萨僧-2011/07/11" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="唐僧-2011/07/10" />
+    </LinearLayout>
+    <!-- 定义第三个标签页的内容 -->
+    <LinearLayout
+        android:id="@+id/extendstabhost_tab03"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="孙悟空-2011/07/12" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="萨僧-2011/07/08" />
+    </LinearLayout>
+</TabHost>

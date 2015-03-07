@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/container"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:orientation="vertical">
+	<TextView 
+	    android:id="@+id/loading"
+	    android:text="加载中..."
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"/>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="500dp" >
+
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textcontainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:text=""/>
+        </HorizontalScrollView>
+    </ScrollView>
+
+</LinearLayout>

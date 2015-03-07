@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/add_preference"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/del_preference"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/update_preference"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="↺" />
+
+        <Button
+            android:id="@+id/search_preference"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="find" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView android:text="应用标识，完整包名，如果为空，则指程序自己" />
+
+        <EditText
+            android:id="@+id/appname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+        <TableRow >
+			<TextView android:text="偏好名" />
+			<EditText
+            android:id="@+id/name_preference"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preferences_key" />
+
+            <EditText
+                android:id="@+id/preferences_key"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="preferences_value" />
+
+            <EditText
+                android:id="@+id/preferences_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="完整的xml文件" />
+
+        <TextView
+            android:id="@+id/allxml"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             >
+        </TextView>
+    </TableLayout>
+
+</LinearLayout>

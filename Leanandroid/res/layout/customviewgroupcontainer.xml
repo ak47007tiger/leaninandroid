@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#adcbca"
+            android:text="test" />
+
+        <loc.customview.viewgroup.FlowLayout
+            android:layout_width="fill_parent"
+            android:layout_height="200dp" >
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="#a1c1f3"
+                android:text="test----1" />
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:background="#a2cd23"
+                android:text="test----2" />
+
+            <Button
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:background="#a3c1ff"
+                android:text="test----3" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="#a4c183"
+                android:text="test----4" />
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="test----5" />
+
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:background="#a6c1d3"
+                android:text="test----6" />
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:background="#a2cd23"
+                android:text="test----2" />
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:background="#a3c1ff"
+                android:text="test----3" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="#a4c183"
+                android:text="test----4" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="test----5" />
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:background="#a6c1d3"
+                android:text="test----6" />
+        </loc.customview.viewgroup.FlowLayout>
+
+        
+    </LinearLayout>
+
+</ScrollView>

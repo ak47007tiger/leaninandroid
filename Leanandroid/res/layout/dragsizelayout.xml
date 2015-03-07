@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<loc.customview.viewgroup.DragSizeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/draglayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecb2ff"
+     >
+	<Button 
+	    android:id="@+id/btn"
+	    android:layout_width="fill_parent"
+	    android:layout_height="100dp"
+	    android:gravity="center"
+	    android:background="#2cd3f4"
+	    android:text="btn"/>
+</loc.customview.viewgroup.DragSizeLayout>

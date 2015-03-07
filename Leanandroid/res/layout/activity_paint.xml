@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/self"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/paintviewlist"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp" >
+    </ListView>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <FrameLayout
+                android:id="@+id/viewcontainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#a3b3ce" >
+                <!--
+                 <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aosidjfaosidfj" />                -->
+            </FrameLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+</LinearLayout>

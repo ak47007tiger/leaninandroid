@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item1"
+        android:title="pop_item1">
+    </item>
+    <item
+        android:id="@+id/item2"
+        android:title="pop_item2">
+    </item>
+
+    <item 
+        android:title="second">
+        <menu>
+            <item
+                android:id="@+id/item3"
+                android:title="pup_item3"/>
+            
+            <item android:title="chirldren_item3"/>
+        </menu>
+    </item>
+
+</menu>

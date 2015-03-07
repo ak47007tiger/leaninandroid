@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".ManyMenuActivity" >
+
+    <Button
+        android:id="@+id/tv_contextmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上下文菜单" />
+	<Button 
+	    android:id="@+id/tv_popmenu"
+	     android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="弹出菜单"/>
+	<Button android:id="@+id/asyntask_findword"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="asyntask_findword"/>
+	<TextView android:id="@+id/asyntask_result"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"/>
+	<Button android:id="@+id/start_user_con"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="启动通讯录"/>
+</LinearLayout>
