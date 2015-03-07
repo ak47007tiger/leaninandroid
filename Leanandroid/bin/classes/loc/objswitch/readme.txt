@@ -1,1 +1,0 @@
-用于模拟对象的switch case
